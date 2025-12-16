@@ -19,7 +19,7 @@
 83E:\Old Portfolio\My-Portfolio\node_modules\@parcel\diagnostic\test\markdown.test.js133957559362971559 0
 52E:\Old Portfolio\My-Portfolio\node_modules\@mischnic133957559338941031 1
 34E:\Old Portfolio\My-Portfolio\dist133957599787958205 1
-75E:\Old Portfolio\My-Portfolio\public\PUBLIC SPEAKER MENTOR ANCHOR î (3).png133957498648401149 0
+75E:\Old Portfolio\My-Portfolio\public\PUBLIC SPEAKER MENTOR ANCHOR ÔøΩ (3).png133957498648401149 0
 59E:\Old Portfolio\My-Portfolio\node_modules\msgpackr-extract133957559340758140 1
 84E:\Old Portfolio\My-Portfolio\node_modules\msgpackr-extract\node_modules\detect-libc133957559364383767 1
 47E:\Old Portfolio\My-Portfolio\package-lock.json133957599750844541 0
@@ -45,7 +45,7 @@
 74E:\Old Portfolio\My-Portfolio\node_modules\update-browserslist-db\index.js133957559340494969 0
 88E:\Old Portfolio\My-Portfolio\node_modules\@parcel\reporter-dev-server\src\NodeRunner.js133957559370139142 0
 80E:\Old Portfolio\My-Portfolio\node_modules\@swc\helpers\cjs\_async_generator.cjs133957559341269847 0
-55E:\Old Portfolio\My-Portfolio\public\1684992616309.jpeg133957498648379447 0
+55E:\Old Portfolio\My-Portfolio\public\favicon.jpeg133957498648379447 0
 45E:\Old Portfolio\My-Portfolio\experience.html133957599683869466 0
 64E:\Old Portfolio\My-Portfolio\node_modules\browserslist\parse.js133957559340758140 0
 39E:\Old Portfolio\My-Portfolio\index.css133957503729376907 0
@@ -81,7 +81,7 @@
 64E:\Old Portfolio\My-Portfolio\node_modules\msgpackr\package.json133957559346851317 0
 69E:\Old Portfolio\My-Portfolio\node_modules\@parcel\core\test\fixtures133957559368581342 1
 88E:\Old Portfolio\My-Portfolio\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133957559360801088 0
-79E:\Old Portfolio\My-Portfolio\public\public speaker mentor anchor ‚?ù-1500w.png133957498648411236 0
+79E:\Old Portfolio\My-Portfolio\public\public speaker mentor anchor ÔøΩ?ÔøΩ-1500w.png133957498648411236 0
 63E:\Old Portfolio\My-Portfolio\node_modules\@parcel\packager-raw133957559360123124 1
 74E:\Old Portfolio\My-Portfolio\node_modules\caniuse-lite\data\regions\BM.js133957559342177463 0
 75E:\Old Portfolio\My-Portfolio\node_modules\postcss-value-parser\lib\walk.js133957559340716130 0
@@ -3537,7 +3537,7 @@
 58E:\Old Portfolio\My-Portfolio\node_modules\.bin\semver.ps1133957559375949365 0
 70E:\Old Portfolio\My-Portfolio\node_modules\.bin\update-browserslist-db133957559375949365 0
 74E:\Old Portfolio\My-Portfolio\node_modules\.bin\update-browserslist-db.ps1133957559375949365 0
-62E:\Old Portfolio\My-Portfolio\dist\1684992616309.d0ce2347.jpeg133957599780978518 0
+62E:\Old Portfolio\My-Portfolio\dist\favicon.d0ce2347.jpeg133957599780978518 0
 54E:\Old Portfolio\My-Portfolio\dist\banner.667bf52d.png133957599780978518 0
 58E:\Old Portfolio\My-Portfolio\dist\experience.8c0d5803.css133957599787823971 0
 64E:\Old Portfolio\My-Portfolio\dist\My-Portfolio.edc0a941.css.map133957599787916069 0

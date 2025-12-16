@@ -1,343 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Vansh's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Arial;
-        font-size: 16px;
-      }
+<head>
+  <title>Vansh's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.55;
-        color: var(--dl-color-gray-black);
-        background: var(--dl-color-gray-white);
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
 
-        null
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="shortcut icon"
-      href="public/1684992616309.jpeg"
-      type="icon/png"
-      sizes="32x32"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-    <!--This is the head section-->
-    <!-- <style> ... </style> -->
-    <!-- Add the following code in the head tag -->
+    body {
+      margin: 0;
+    }
 
-    <style>
-      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
-          display: flex;
-        }
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
 
-        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
-          transform: rotate(90deg);
-        }
-    </style>
-  </head>
-  <body>
-    <link rel="stylesheet" href="../style.css" />
-    <div>
-      <link href="./timeline10.css" rel="stylesheet" />
-      <div class="thq-section-padding timeline10 timeline10-container10">
-        <div class="timeline10-max-width thq-section-max-width">
-          <div class="timeline10-container11">
-            <div class="timeline10-container12">
-              <button type="button" class="thq-button-filled">
-                <span>
-                  <fragment class="timeline10-fragment11">
-                    <span class="timeline10-text37">Primary action</span>
-                  </fragment>
-                </span>
-              </button>
-              <button type="button" class="thq-button-outline">
-                <span>
-                  <fragment class="timeline10-fragment14">
-                    <span class="timeline10-text40">Seconday action</span>
-                  </fragment>
-                </span>
-              </button>
-            </div>
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Arial;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.55;
+      color: var(--dl-color-gray-black);
+      background: var(--dl-color-gray-white);
+
+      null
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="shortcut icon" href="public/favicon.jpeg" type="icon/png" sizes="32x32" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+  <!--This is the head section-->
+  <!-- <style> ... </style> -->
+  <!-- Add the following code in the head tag -->
+
+  <style>
+    [data-thq="thq-dropdown"]:hover>[data-thq="thq-dropdown-list"] {
+      display: flex;
+    }
+
+    [data-thq="thq-dropdown"]:hover>div [data-thq="thq-dropdown-arrow"] {
+      transform: rotate(90deg);
+    }
+  </style>
+</head>
+
+<body>
+  <link rel="stylesheet" href="../style.css" />
+  <div>
+    <link href="./timeline10.css" rel="stylesheet" />
+    <div class="thq-section-padding timeline10 timeline10-container10">
+      <div class="timeline10-max-width thq-section-max-width">
+        <div class="timeline10-container11">
+          <div class="timeline10-container12">
+            <button type="button" class="thq-button-filled">
+              <span>
+                <fragment class="timeline10-fragment11">
+                  <span class="timeline10-text37">Primary action</span>
+                </fragment>
+              </span>
+            </button>
+            <button type="button" class="thq-button-outline">
+              <span>
+                <fragment class="timeline10-fragment14">
+                  <span class="timeline10-text40">Seconday action</span>
+                </fragment>
+              </span>
+            </button>
           </div>
-          <div class="timeline10-timeline-container">
-            <div class="timeline10-step1">
-              <div class="timeline10-container13">
-                <div class="timeline10-container14"></div>
-              </div>
-              <div class="timeline10-progress01"></div>
-              <div class="timeline10-container15">
-                <div class="timeline10-container16">
-                  <h3 class="timeline10-text12">
-                    <fragment class="timeline10-fragment35">
-                      <h3 class="timeline10-text64 thq-heading-3">2010</h3>
-                    </fragment>
-                  </h3>
-                  <h3>
-                    <fragment class="timeline10-fragment12">
-                      <h3 class="timeline10-text38 thq-heading-3">
-                        Expansion Phase
-                      </h3>
-                    </fragment>
-                  </h3>
-                  <span>
-                    <fragment class="timeline10-fragment19">
-                      <span class="timeline10-text48 thq-body-small">
-                        &nbsp;Began exploring the&nbsp; world of AR/VR and
-                        website development.
-                      </span>
-                    </fragment>
-                  </span>
-                  <span>
-                    <fragment class="timeline10-fragment32">
-                      <span class="timeline10-text61">Text</span>
-                    </fragment>
-                  </span>
-                  <div class="timeline10-container17">
-                    <button
-                      type="button"
-                      class="timeline10-button12 thq-button-filled"
-                    >
-                      <span>
-                        <fragment class="timeline10-fragment29">
-                          <span class="timeline10-text58">
-                            Attended workshops and training sessions to enhance
-                            skills.
-                          </span>
-                        </fragment>
-                      </span>
-                    </button>
-                    <button
-                      type="button"
-                      class="timeline10-button13 thq-button-outline"
-                    >
-                      <span>
-                        <fragment class="timeline10-fragment24">
-                          <span class="timeline10-text53">
-                            Started offering basic services to local clients.
-                          </span>
-                        </fragment>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+        </div>
+        <div class="timeline10-timeline-container">
+          <div class="timeline10-step1">
+            <div class="timeline10-container13">
+              <div class="timeline10-container14"></div>
             </div>
-            <div class="timeline10-container18">
-              <div class="timeline10-step2">
-                <div class="timeline10-container19">
-                  <h3>
-                    <fragment class="timeline10-fragment33">
-                      <h3 class="timeline10-text62 thq-heading-3">2015</h3>
-                    </fragment>
-                  </h3>
-                  <h3>
-                    <fragment class="timeline10-fragment25">
-                      <h3 class="timeline10-text54 thq-heading-3">
-                        Expansion Phase
-                      </h3>
-                    </fragment>
-                  </h3>
-                  <span>
-                    <fragment class="timeline10-fragment34">
-                      <span class="timeline10-text63 thq-body-small">
-                        Diversified services to include virtual tours and
-                        content writing.
-                      </span>
-                    </fragment>
-                  </span>
-                  <span>
-                    <fragment class="timeline10-fragment18">
-                      <span class="timeline10-text44">
-                        <span>"As a VR Designer for</span>
-                        <span class="timeline10-text46">
-                          Baba Farid Group of Instituions
-                        </span>
-                        <span>
-                          , Bathinda and served as a manager. Developed a
-                          Virtual Reality (VR) of my institution with my core
-                          team of 30+ members which conntributed in creating a
-                          3D and Virtual Tour of whole campus including 5 Major
-                          Colleges and the surroundings."
-                        </span>
-                      </span>
-                    </fragment>
-                  </span>
-                  <div class="timeline10-container20">
-                    <div class="timeline10-container21"></div>
-                  </div>
-                  <div class="timeline10-container22">
-                    <button
-                      type="button"
-                      class="timeline10-button14 thq-button-filled"
-                    >
-                      <span>
-                        <fragment class="timeline10-fragment21">
-                          <span class="timeline10-text50">
-                            Collaborated with industry experts on major
-                            projects.
-                          </span>
-                        </fragment>
-                      </span>
-                    </button>
-                    <button
-                      type="button"
-                      class="timeline10-button15 thq-button-outline"
-                    >
-                      <span>
-                        <fragment class="timeline10-fragment28">
-                          <span class="timeline10-text57">
-                            Launched a successful virtual tour campaign for a
-                            renowned client.
-                          </span>
-                        </fragment>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-                <div class="timeline10-container23">
-                  <div class="timeline10-container24"></div>
-                </div>
-              </div>
-              <div class="timeline10-progress02"></div>
-            </div>
-            <div class="timeline10-container25">
-              <div class="timeline10-container26"></div>
-            </div>
-            <div class="timeline10-step3">
-              <div class="timeline10-progress03"></div>
-              <div class="timeline10-container27">
-                <h3 class="timeline10-text24">
-                  <fragment class="timeline10-fragment30">
-                    <h3 class="timeline10-text59 thq-heading-3">2018</h3>
+            <div class="timeline10-progress01"></div>
+            <div class="timeline10-container15">
+              <div class="timeline10-container16">
+                <h3 class="timeline10-text12">
+                  <fragment class="timeline10-fragment35">
+                    <h3 class="timeline10-text64 thq-heading-3">2010</h3>
                   </fragment>
                 </h3>
                 <h3>
-                  <fragment class="timeline10-fragment23">
-                    <h3 class="timeline10-text52 thq-heading-3">
-                      Recognition Achieved
+                  <fragment class="timeline10-fragment12">
+                    <h3 class="timeline10-text38 thq-heading-3">
+                      Expansion Phase
                     </h3>
                   </fragment>
                 </h3>
                 <span>
-                  <fragment class="timeline10-fragment15">
-                    <span class="timeline10-text41 thq-body-small">
-                      Received awards for innovative AR/VR projects and
-                      impactful content writing.
+                  <fragment class="timeline10-fragment19">
+                    <span class="timeline10-text48 thq-body-small">
+                      &nbsp;Began exploring the&nbsp; world of AR/VR and
+                      website development.
                     </span>
                   </fragment>
                 </span>
                 <span>
-                  <fragment class="timeline10-fragment26">
-                    <span class="timeline10-text55">Text</span>
+                  <fragment class="timeline10-fragment32">
+                    <span class="timeline10-text61">Text</span>
                   </fragment>
                 </span>
-                <div class="timeline10-container28">
-                  <button
-                    type="button"
-                    class="timeline10-button16 thq-button-filled"
-                  >
+                <div class="timeline10-container17">
+                  <button type="button" class="timeline10-button12 thq-button-filled">
                     <span>
-                      <fragment class="timeline10-fragment27">
-                        <span class="timeline10-text56">
-                          Featured as a guest speaker at tech conferences.
+                      <fragment class="timeline10-fragment29">
+                        <span class="timeline10-text58">
+                          Attended workshops and training sessions to enhance
+                          skills.
                         </span>
                       </fragment>
                     </span>
                   </button>
-                  <button
-                    type="button"
-                    class="timeline10-button17 thq-button-outline"
-                  >
+                  <button type="button" class="timeline10-button13 thq-button-outline">
                     <span>
-                      <fragment class="timeline10-fragment16">
-                        <span class="timeline10-text42">
-                          Published articles on the future of AR/VR technology.
+                      <fragment class="timeline10-fragment24">
+                        <span class="timeline10-text53">
+                          Started offering basic services to local clients.
                         </span>
                       </fragment>
                     </span>
@@ -345,71 +255,190 @@
                 </div>
               </div>
             </div>
-            <div class="timeline10-container29">
-              <div class="timeline10-container30">
-                <div class="timeline10-container31">
-                  <div class="timeline10-step4">
-                    <div class="timeline10-container32">
-                      <h3>
-                        <fragment class="timeline10-fragment17">
-                          <h3 class="timeline10-text43 thq-heading-3">2021</h3>
-                        </fragment>
-                      </h3>
-                      <h3>
-                        <fragment class="timeline10-fragment13">
-                          <h3 class="timeline10-text39 thq-heading-3">
-                            Present Day
-                          </h3>
-                        </fragment>
-                      </h3>
-                      <span>
-                        <fragment class="timeline10-fragment10">
-                          <span class="timeline10-text36 thq-body-small">
-                            Continuing to provide cutting-edge services in
-                            AR/VR, website development, virtual tours, and
-                            content writing.
-                          </span>
-                        </fragment>
+          </div>
+          <div class="timeline10-container18">
+            <div class="timeline10-step2">
+              <div class="timeline10-container19">
+                <h3>
+                  <fragment class="timeline10-fragment33">
+                    <h3 class="timeline10-text62 thq-heading-3">2015</h3>
+                  </fragment>
+                </h3>
+                <h3>
+                  <fragment class="timeline10-fragment25">
+                    <h3 class="timeline10-text54 thq-heading-3">
+                      Expansion Phase
+                    </h3>
+                  </fragment>
+                </h3>
+                <span>
+                  <fragment class="timeline10-fragment34">
+                    <span class="timeline10-text63 thq-body-small">
+                      Diversified services to include virtual tours and
+                      content writing.
+                    </span>
+                  </fragment>
+                </span>
+                <span>
+                  <fragment class="timeline10-fragment18">
+                    <span class="timeline10-text44">
+                      <span>"As a VR Designer for</span>
+                      <span class="timeline10-text46">
+                        Baba Farid Group of Instituions
                       </span>
-                      <div class="timeline10-container33">
-                        <button
-                          type="button"
-                          class="timeline10-button18 thq-button-filled"
-                        >
-                          <span>
-                            <fragment class="timeline10-fragment31">
-                              <span class="timeline10-text60">
-                                Expanding client base globally through
-                                successful projects and referrals.
-                              </span>
-                            </fragment>
-                          </span>
-                        </button>
-                        <button
-                          type="button"
-                          class="timeline10-button19 thq-button-outline"
-                        >
-                          <span>
-                            <fragment class="timeline10-fragment20">
-                              <span class="timeline10-text49">
-                                Engaging in public speaking events to share
-                                expertise and insights.
-                              </span>
-                            </fragment>
-                          </span>
-                        </button>
-                      </div>
                       <span>
-                        <fragment class="timeline10-fragment22">
-                          <span class="timeline10-text51">Text</span>
-                        </fragment>
+                        , Bathinda and served as a manager. Developed a
+                        Virtual Reality (VR) of my institution with my core
+                        team of 30+ members which conntributed in creating a
+                        3D and Virtual Tour of whole campus including 5 Major
+                        Colleges and the surroundings."
                       </span>
+                    </span>
+                  </fragment>
+                </span>
+                <div class="timeline10-container20">
+                  <div class="timeline10-container21"></div>
+                </div>
+                <div class="timeline10-container22">
+                  <button type="button" class="timeline10-button14 thq-button-filled">
+                    <span>
+                      <fragment class="timeline10-fragment21">
+                        <span class="timeline10-text50">
+                          Collaborated with industry experts on major
+                          projects.
+                        </span>
+                      </fragment>
+                    </span>
+                  </button>
+                  <button type="button" class="timeline10-button15 thq-button-outline">
+                    <span>
+                      <fragment class="timeline10-fragment28">
+                        <span class="timeline10-text57">
+                          Launched a successful virtual tour campaign for a
+                          renowned client.
+                        </span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div class="timeline10-container23">
+                <div class="timeline10-container24"></div>
+              </div>
+            </div>
+            <div class="timeline10-progress02"></div>
+          </div>
+          <div class="timeline10-container25">
+            <div class="timeline10-container26"></div>
+          </div>
+          <div class="timeline10-step3">
+            <div class="timeline10-progress03"></div>
+            <div class="timeline10-container27">
+              <h3 class="timeline10-text24">
+                <fragment class="timeline10-fragment30">
+                  <h3 class="timeline10-text59 thq-heading-3">2018</h3>
+                </fragment>
+              </h3>
+              <h3>
+                <fragment class="timeline10-fragment23">
+                  <h3 class="timeline10-text52 thq-heading-3">
+                    Recognition Achieved
+                  </h3>
+                </fragment>
+              </h3>
+              <span>
+                <fragment class="timeline10-fragment15">
+                  <span class="timeline10-text41 thq-body-small">
+                    Received awards for innovative AR/VR projects and
+                    impactful content writing.
+                  </span>
+                </fragment>
+              </span>
+              <span>
+                <fragment class="timeline10-fragment26">
+                  <span class="timeline10-text55">Text</span>
+                </fragment>
+              </span>
+              <div class="timeline10-container28">
+                <button type="button" class="timeline10-button16 thq-button-filled">
+                  <span>
+                    <fragment class="timeline10-fragment27">
+                      <span class="timeline10-text56">
+                        Featured as a guest speaker at tech conferences.
+                      </span>
+                    </fragment>
+                  </span>
+                </button>
+                <button type="button" class="timeline10-button17 thq-button-outline">
+                  <span>
+                    <fragment class="timeline10-fragment16">
+                      <span class="timeline10-text42">
+                        Published articles on the future of AR/VR technology.
+                      </span>
+                    </fragment>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="timeline10-container29">
+            <div class="timeline10-container30">
+              <div class="timeline10-container31">
+                <div class="timeline10-step4">
+                  <div class="timeline10-container32">
+                    <h3>
+                      <fragment class="timeline10-fragment17">
+                        <h3 class="timeline10-text43 thq-heading-3">2021</h3>
+                      </fragment>
+                    </h3>
+                    <h3>
+                      <fragment class="timeline10-fragment13">
+                        <h3 class="timeline10-text39 thq-heading-3">
+                          Present Day
+                        </h3>
+                      </fragment>
+                    </h3>
+                    <span>
+                      <fragment class="timeline10-fragment10">
+                        <span class="timeline10-text36 thq-body-small">
+                          Continuing to provide cutting-edge services in
+                          AR/VR, website development, virtual tours, and
+                          content writing.
+                        </span>
+                      </fragment>
+                    </span>
+                    <div class="timeline10-container33">
+                      <button type="button" class="timeline10-button18 thq-button-filled">
+                        <span>
+                          <fragment class="timeline10-fragment31">
+                            <span class="timeline10-text60">
+                              Expanding client base globally through
+                              successful projects and referrals.
+                            </span>
+                          </fragment>
+                        </span>
+                      </button>
+                      <button type="button" class="timeline10-button19 thq-button-outline">
+                        <span>
+                          <fragment class="timeline10-fragment20">
+                            <span class="timeline10-text49">
+                              Engaging in public speaking events to share
+                              expertise and insights.
+                            </span>
+                          </fragment>
+                        </span>
+                      </button>
                     </div>
-                    <div class="timeline10-progress04"></div>
+                    <span>
+                      <fragment class="timeline10-fragment22">
+                        <span class="timeline10-text51">Text</span>
+                      </fragment>
+                    </span>
                   </div>
-                  <div class="timeline10-container34">
-                    <div class="timeline10-container35"></div>
-                  </div>
+                  <div class="timeline10-progress04"></div>
+                </div>
+                <div class="timeline10-container34">
+                  <div class="timeline10-container35"></div>
                 </div>
               </div>
             </div>
@@ -417,31 +446,26 @@
         </div>
       </div>
     </div>
-    <script
-      type="text/javascript"
-      src="https://www.googletagmanager.com/gtag/js?id=G-1NFNF30PFR"
-      async=""
-    ></script>
-    <script type="text/javascript">
-      window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-1NFNF30PFR');
-    </script>
-    <script type="text/javascript">
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','G-1NFNF30PFR');
-    </script>
-    <script
-      defer=""
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-    <script
-      defer=""
-      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
-    ></script>
-  </body>
+  </div>
+  <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-1NFNF30PFR" async=""></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1NFNF30PFR');
+  </script>
+  <script type="text/javascript">
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'G-1NFNF30PFR');
+  </script>
+  <script defer="" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  <script defer="" src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"></script>
+</body>
+
 </html>
